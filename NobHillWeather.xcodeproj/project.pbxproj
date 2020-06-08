@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		2905EED2248ED31B00E7AEBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2905EED0248ED31B00E7AEBB /* LaunchScreen.storyboard */; };
 		2905EEDD248ED31B00E7AEBB /* NobHillWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EEDC248ED31B00E7AEBB /* NobHillWeatherTests.swift */; };
 		2905EEE8248ED31B00E7AEBB /* NobHillWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EEE7248ED31B00E7AEBB /* NobHillWeatherUITests.swift */; };
+		2905EEF7248ED51600E7AEBB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2905EEF6248ED51600E7AEBB /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2905EEF7248ED51600E7AEBB /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +149,9 @@
 			dependencies = (
 			);
 			name = NobHillWeather;
+			packageProductDependencies = (
+				2905EEF6248ED51600E7AEBB /* Kingfisher */,
+			);
 			productName = NobHillWeather;
 			productReference = 2905EEC0248ED31900E7AEBB /* NobHillWeather.app */;
 			productType = "com.apple.product-type.application";
@@ -219,6 +224,9 @@
 				Base,
 			);
 			mainGroup = 2905EEB7248ED31900E7AEBB;
+			packageReferences = (
+				2905EEF5248ED51600E7AEBB /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 2905EEC1248ED31900E7AEBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -594,6 +602,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2905EEF5248ED51600E7AEBB /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2905EEF6248ED51600E7AEBB /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2905EEF5248ED51600E7AEBB /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2905EEB8248ED31900E7AEBB /* Project object */;
 }
