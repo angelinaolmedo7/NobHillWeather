@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2905EEC4248ED31900E7AEBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EEC3248ED31900E7AEBB /* AppDelegate.swift */; };
+		2905EEC6248ED31900E7AEBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EEC5248ED31900E7AEBB /* SceneDelegate.swift */; };
+		2905EEC8248ED31900E7AEBB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EEC7248ED31900E7AEBB /* FirstViewController.swift */; };
+		2905EECA248ED31900E7AEBB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EEC9248ED31900E7AEBB /* SecondViewController.swift */; };
+		2905EECD248ED31900E7AEBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2905EECB248ED31900E7AEBB /* Main.storyboard */; };
+		2905EECF248ED31B00E7AEBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2905EECE248ED31B00E7AEBB /* Assets.xcassets */; };
+		2905EED2248ED31B00E7AEBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2905EED0248ED31B00E7AEBB /* LaunchScreen.storyboard */; };
+		2905EEDD248ED31B00E7AEBB /* NobHillWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EEDC248ED31B00E7AEBB /* NobHillWeatherTests.swift */; };
+		2905EEE8248ED31B00E7AEBB /* NobHillWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EEE7248ED31B00E7AEBB /* NobHillWeatherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2905EED9248ED31B00E7AEBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2905EEB8248ED31900E7AEBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2905EEBF248ED31900E7AEBB;
+			remoteInfo = NobHillWeather;
+		};
+		2905EEE4248ED31B00E7AEBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2905EEB8248ED31900E7AEBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2905EEBF248ED31900E7AEBB;
+			remoteInfo = NobHillWeather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2905EEC0248ED31900E7AEBB /* NobHillWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NobHillWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2905EEC3248ED31900E7AEBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2905EEC5248ED31900E7AEBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2905EEC7248ED31900E7AEBB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2905EEC9248ED31900E7AEBB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2905EECC248ED31900E7AEBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2905EECE248ED31B00E7AEBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2905EED1248ED31B00E7AEBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2905EED3248ED31B00E7AEBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2905EED8248ED31B00E7AEBB /* NobHillWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NobHillWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2905EEDC248ED31B00E7AEBB /* NobHillWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NobHillWeatherTests.swift; sourceTree = "<group>"; };
+		2905EEDE248ED31B00E7AEBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2905EEE3248ED31B00E7AEBB /* NobHillWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NobHillWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2905EEE7248ED31B00E7AEBB /* NobHillWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NobHillWeatherUITests.swift; sourceTree = "<group>"; };
+		2905EEE9248ED31B00E7AEBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2905EEBD248ED31900E7AEBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2905EED5248ED31B00E7AEBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2905EEE0248ED31B00E7AEBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2905EEB7248ED31900E7AEBB = {
+			isa = PBXGroup;
+			children = (
+				2905EEC2248ED31900E7AEBB /* NobHillWeather */,
+				2905EEDB248ED31B00E7AEBB /* NobHillWeatherTests */,
+				2905EEE6248ED31B00E7AEBB /* NobHillWeatherUITests */,
+				2905EEC1248ED31900E7AEBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2905EEC1248ED31900E7AEBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2905EEC0248ED31900E7AEBB /* NobHillWeather.app */,
+				2905EED8248ED31B00E7AEBB /* NobHillWeatherTests.xctest */,
+				2905EEE3248ED31B00E7AEBB /* NobHillWeatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2905EEC2248ED31900E7AEBB /* NobHillWeather */ = {
+			isa = PBXGroup;
+			children = (
+				2905EEC3248ED31900E7AEBB /* AppDelegate.swift */,
+				2905EEC5248ED31900E7AEBB /* SceneDelegate.swift */,
+				2905EEC7248ED31900E7AEBB /* FirstViewController.swift */,
+				2905EEC9248ED31900E7AEBB /* SecondViewController.swift */,
+				2905EECB248ED31900E7AEBB /* Main.storyboard */,
+				2905EECE248ED31B00E7AEBB /* Assets.xcassets */,
+				2905EED0248ED31B00E7AEBB /* LaunchScreen.storyboard */,
+				2905EED3248ED31B00E7AEBB /* Info.plist */,
+			);
+			path = NobHillWeather;
+			sourceTree = "<group>";
+		};
+		2905EEDB248ED31B00E7AEBB /* NobHillWeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				2905EEDC248ED31B00E7AEBB /* NobHillWeatherTests.swift */,
+				2905EEDE248ED31B00E7AEBB /* Info.plist */,
+			);
+			path = NobHillWeatherTests;
+			sourceTree = "<group>";
+		};
+		2905EEE6248ED31B00E7AEBB /* NobHillWeatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2905EEE7248ED31B00E7AEBB /* NobHillWeatherUITests.swift */,
+				2905EEE9248ED31B00E7AEBB /* Info.plist */,
+			);
+			path = NobHillWeatherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2905EEBF248ED31900E7AEBB /* NobHillWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2905EEEC248ED31B00E7AEBB /* Build configuration list for PBXNativeTarget "NobHillWeather" */;
+			buildPhases = (
+				2905EEBC248ED31900E7AEBB /* Sources */,
+				2905EEBD248ED31900E7AEBB /* Frameworks */,
+				2905EEBE248ED31900E7AEBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NobHillWeather;
+			productName = NobHillWeather;
+			productReference = 2905EEC0248ED31900E7AEBB /* NobHillWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2905EED7248ED31B00E7AEBB /* NobHillWeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2905EEEF248ED31B00E7AEBB /* Build configuration list for PBXNativeTarget "NobHillWeatherTests" */;
+			buildPhases = (
+				2905EED4248ED31B00E7AEBB /* Sources */,
+				2905EED5248ED31B00E7AEBB /* Frameworks */,
+				2905EED6248ED31B00E7AEBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2905EEDA248ED31B00E7AEBB /* PBXTargetDependency */,
+			);
+			name = NobHillWeatherTests;
+			productName = NobHillWeatherTests;
+			productReference = 2905EED8248ED31B00E7AEBB /* NobHillWeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2905EEE2248ED31B00E7AEBB /* NobHillWeatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2905EEF2248ED31B00E7AEBB /* Build configuration list for PBXNativeTarget "NobHillWeatherUITests" */;
+			buildPhases = (
+				2905EEDF248ED31B00E7AEBB /* Sources */,
+				2905EEE0248ED31B00E7AEBB /* Frameworks */,
+				2905EEE1248ED31B00E7AEBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2905EEE5248ED31B00E7AEBB /* PBXTargetDependency */,
+			);
+			name = NobHillWeatherUITests;
+			productName = NobHillWeatherUITests;
+			productReference = 2905EEE3248ED31B00E7AEBB /* NobHillWeatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2905EEB8248ED31900E7AEBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Angelina Olmedo";
+				TargetAttributes = {
+					2905EEBF248ED31900E7AEBB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					2905EED7248ED31B00E7AEBB = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 2905EEBF248ED31900E7AEBB;
+					};
+					2905EEE2248ED31B00E7AEBB = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 2905EEBF248ED31900E7AEBB;
+					};
+				};
+			};
+			buildConfigurationList = 2905EEBB248ED31900E7AEBB /* Build configuration list for PBXProject "NobHillWeather" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2905EEB7248ED31900E7AEBB;
+			productRefGroup = 2905EEC1248ED31900E7AEBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2905EEBF248ED31900E7AEBB /* NobHillWeather */,
+				2905EED7248ED31B00E7AEBB /* NobHillWeatherTests */,
+				2905EEE2248ED31B00E7AEBB /* NobHillWeatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2905EEBE248ED31900E7AEBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2905EED2248ED31B00E7AEBB /* LaunchScreen.storyboard in Resources */,
+				2905EECF248ED31B00E7AEBB /* Assets.xcassets in Resources */,
+				2905EECD248ED31900E7AEBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2905EED6248ED31B00E7AEBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2905EEE1248ED31B00E7AEBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2905EEBC248ED31900E7AEBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2905EECA248ED31900E7AEBB /* SecondViewController.swift in Sources */,
+				2905EEC8248ED31900E7AEBB /* FirstViewController.swift in Sources */,
+				2905EEC4248ED31900E7AEBB /* AppDelegate.swift in Sources */,
+				2905EEC6248ED31900E7AEBB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2905EED4248ED31B00E7AEBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2905EEDD248ED31B00E7AEBB /* NobHillWeatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2905EEDF248ED31B00E7AEBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2905EEE8248ED31B00E7AEBB /* NobHillWeatherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2905EEDA248ED31B00E7AEBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2905EEBF248ED31900E7AEBB /* NobHillWeather */;
+			targetProxy = 2905EED9248ED31B00E7AEBB /* PBXContainerItemProxy */;
+		};
+		2905EEE5248ED31B00E7AEBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2905EEBF248ED31900E7AEBB /* NobHillWeather */;
+			targetProxy = 2905EEE4248ED31B00E7AEBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2905EECB248ED31900E7AEBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2905EECC248ED31900E7AEBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2905EED0248ED31B00E7AEBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2905EED1248ED31B00E7AEBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2905EEEA248ED31B00E7AEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2905EEEB248ED31B00E7AEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2905EEED248ED31B00E7AEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U774TM88M6;
+				INFOPLIST_FILE = NobHillWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.NobHillWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2905EEEE248ED31B00E7AEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U774TM88M6;
+				INFOPLIST_FILE = NobHillWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.NobHillWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2905EEF0248ED31B00E7AEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U774TM88M6;
+				INFOPLIST_FILE = NobHillWeatherTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.NobHillWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NobHillWeather.app/NobHillWeather";
+			};
+			name = Debug;
+		};
+		2905EEF1248ED31B00E7AEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U774TM88M6;
+				INFOPLIST_FILE = NobHillWeatherTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.NobHillWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NobHillWeather.app/NobHillWeather";
+			};
+			name = Release;
+		};
+		2905EEF3248ED31B00E7AEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U774TM88M6;
+				INFOPLIST_FILE = NobHillWeatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.NobHillWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NobHillWeather;
+			};
+			name = Debug;
+		};
+		2905EEF4248ED31B00E7AEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U774TM88M6;
+				INFOPLIST_FILE = NobHillWeatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.NobHillWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NobHillWeather;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2905EEBB248ED31900E7AEBB /* Build configuration list for PBXProject "NobHillWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2905EEEA248ED31B00E7AEBB /* Debug */,
+				2905EEEB248ED31B00E7AEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2905EEEC248ED31B00E7AEBB /* Build configuration list for PBXNativeTarget "NobHillWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2905EEED248ED31B00E7AEBB /* Debug */,
+				2905EEEE248ED31B00E7AEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2905EEEF248ED31B00E7AEBB /* Build configuration list for PBXNativeTarget "NobHillWeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2905EEF0248ED31B00E7AEBB /* Debug */,
+				2905EEF1248ED31B00E7AEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2905EEF2248ED31B00E7AEBB /* Build configuration list for PBXNativeTarget "NobHillWeatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2905EEF3248ED31B00E7AEBB /* Debug */,
+				2905EEF4248ED31B00E7AEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2905EEB8248ED31900E7AEBB /* Project object */;
+}
