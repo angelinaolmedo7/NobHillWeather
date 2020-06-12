@@ -10,13 +10,19 @@
 		2905EEC4248ED31900E7AEBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EEC3248ED31900E7AEBB /* AppDelegate.swift */; };
 		2905EEC6248ED31900E7AEBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EEC5248ED31900E7AEBB /* SceneDelegate.swift */; };
 		2905EEC8248ED31900E7AEBB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EEC7248ED31900E7AEBB /* FirstViewController.swift */; };
-		2905EECA248ED31900E7AEBB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EEC9248ED31900E7AEBB /* SecondViewController.swift */; };
 		2905EECD248ED31900E7AEBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2905EECB248ED31900E7AEBB /* Main.storyboard */; };
 		2905EECF248ED31B00E7AEBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2905EECE248ED31B00E7AEBB /* Assets.xcassets */; };
 		2905EED2248ED31B00E7AEBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2905EED0248ED31B00E7AEBB /* LaunchScreen.storyboard */; };
 		2905EEDD248ED31B00E7AEBB /* NobHillWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EEDC248ED31B00E7AEBB /* NobHillWeatherTests.swift */; };
 		2905EEE8248ED31B00E7AEBB /* NobHillWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EEE7248ED31B00E7AEBB /* NobHillWeatherUITests.swift */; };
 		2905EEF7248ED51600E7AEBB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2905EEF6248ED51600E7AEBB /* Kingfisher */; };
+		2905EF04248EDC3E00E7AEBB /* CreateSessionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EF03248EDC3E00E7AEBB /* CreateSessionResponse.swift */; };
+		2905EF06248EDC7800E7AEBB /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EF05248EDC7800E7AEBB /* WeatherResponse.swift */; };
+		2905EF08248EF66B00E7AEBB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EF07248EF66B00E7AEBB /* NetworkManager.swift */; };
+		2905EF44249342EB00E7AEBB /* LogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EF43249342EA00E7AEBB /* LogItem.swift */; };
+		2905EF462493660900E7AEBB /* LogsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EF452493660900E7AEBB /* LogsTableViewController.swift */; };
+		2905EF4A24936A0A00E7AEBB /* LogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905EF4824936A0A00E7AEBB /* LogTableViewCell.swift */; };
+		2905EF4B24936A0A00E7AEBB /* LogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2905EF4924936A0A00E7AEBB /* LogTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +47,6 @@
 		2905EEC3248ED31900E7AEBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2905EEC5248ED31900E7AEBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2905EEC7248ED31900E7AEBB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		2905EEC9248ED31900E7AEBB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		2905EECC248ED31900E7AEBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2905EECE248ED31B00E7AEBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2905EED1248ED31B00E7AEBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +57,13 @@
 		2905EEE3248ED31B00E7AEBB /* NobHillWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NobHillWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2905EEE7248ED31B00E7AEBB /* NobHillWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NobHillWeatherUITests.swift; sourceTree = "<group>"; };
 		2905EEE9248ED31B00E7AEBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2905EF03248EDC3E00E7AEBB /* CreateSessionResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateSessionResponse.swift; sourceTree = "<group>"; };
+		2905EF05248EDC7800E7AEBB /* WeatherResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
+		2905EF07248EF66B00E7AEBB /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2905EF43249342EA00E7AEBB /* LogItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogItem.swift; sourceTree = "<group>"; };
+		2905EF452493660900E7AEBB /* LogsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsTableViewController.swift; sourceTree = "<group>"; };
+		2905EF4824936A0A00E7AEBB /* LogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogTableViewCell.swift; sourceTree = "<group>"; };
+		2905EF4924936A0A00E7AEBB /* LogTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,14 +115,16 @@
 		2905EEC2248ED31900E7AEBB /* NobHillWeather */ = {
 			isa = PBXGroup;
 			children = (
+				2905EEF9248EDBAE00E7AEBB /* Model */,
+				2905EF47249369EA00E7AEBB /* Views */,
+				2905EEF8248EDB7400E7AEBB /* Controller */,
 				2905EEC3248ED31900E7AEBB /* AppDelegate.swift */,
 				2905EEC5248ED31900E7AEBB /* SceneDelegate.swift */,
-				2905EEC7248ED31900E7AEBB /* FirstViewController.swift */,
-				2905EEC9248ED31900E7AEBB /* SecondViewController.swift */,
 				2905EECB248ED31900E7AEBB /* Main.storyboard */,
 				2905EECE248ED31B00E7AEBB /* Assets.xcassets */,
 				2905EED0248ED31B00E7AEBB /* LaunchScreen.storyboard */,
 				2905EED3248ED31B00E7AEBB /* Info.plist */,
+				2905EEFA248EDBEF00E7AEBB /* Networking */,
 			);
 			path = NobHillWeather;
 			sourceTree = "<group>";
@@ -131,6 +145,42 @@
 				2905EEE9248ED31B00E7AEBB /* Info.plist */,
 			);
 			path = NobHillWeatherUITests;
+			sourceTree = "<group>";
+		};
+		2905EEF8248EDB7400E7AEBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2905EEC7248ED31900E7AEBB /* FirstViewController.swift */,
+				2905EF452493660900E7AEBB /* LogsTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2905EEF9248EDBAE00E7AEBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2905EF03248EDC3E00E7AEBB /* CreateSessionResponse.swift */,
+				2905EF05248EDC7800E7AEBB /* WeatherResponse.swift */,
+				2905EF43249342EA00E7AEBB /* LogItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2905EEFA248EDBEF00E7AEBB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2905EF07248EF66B00E7AEBB /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2905EF47249369EA00E7AEBB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2905EF4824936A0A00E7AEBB /* LogTableViewCell.swift */,
+				2905EF4924936A0A00E7AEBB /* LogTableViewCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +295,7 @@
 			files = (
 				2905EED2248ED31B00E7AEBB /* LaunchScreen.storyboard in Resources */,
 				2905EECF248ED31B00E7AEBB /* Assets.xcassets in Resources */,
+				2905EF4B24936A0A00E7AEBB /* LogTableViewCell.xib in Resources */,
 				2905EECD248ED31900E7AEBB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,10 +321,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2905EECA248ED31900E7AEBB /* SecondViewController.swift in Sources */,
+				2905EF44249342EB00E7AEBB /* LogItem.swift in Sources */,
+				2905EF06248EDC7800E7AEBB /* WeatherResponse.swift in Sources */,
 				2905EEC8248ED31900E7AEBB /* FirstViewController.swift in Sources */,
+				2905EF08248EF66B00E7AEBB /* NetworkManager.swift in Sources */,
 				2905EEC4248ED31900E7AEBB /* AppDelegate.swift in Sources */,
 				2905EEC6248ED31900E7AEBB /* SceneDelegate.swift in Sources */,
+				2905EF462493660900E7AEBB /* LogsTableViewController.swift in Sources */,
+				2905EF4A24936A0A00E7AEBB /* LogTableViewCell.swift in Sources */,
+				2905EF04248EDC3E00E7AEBB /* CreateSessionResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
